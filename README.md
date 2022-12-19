@@ -19,5 +19,5 @@ This library is based on code in [Shelley Vohr](https://codebyte.re)’s [`node-
 
 ---
 
-Copyright (c) 2020 [Octopus Think](https://octopusthink.com)
+Copyright (c) 2022 [Octopus Think](https://octopusthink.com)
 ([Contributors](https://github.com/octopusthink/node-mac-icloud-keyvalue/graphs/contributors)).
