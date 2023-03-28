@@ -1,6 +1,6 @@
 {
   "name": "node-mac-icloud-keyvalue",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A native Node.js module providing an interface to the user’s iCloud key value store (eg. NSUbiquitousKeyValueStore)",
   "main": "./index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "node-gyp": "^9.3.0",
+    "node-gyp": "^9.3.1",
     "prettier": "^2.8.1"
   },
   "dependencies": {

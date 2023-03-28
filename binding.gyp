@@ -25,8 +25,13 @@
         "-arch arm64"
       ],
       "OTHER_CPLUSPLUSFLAGS": ["-std=c++17", "-stdlib=libc++", "-Wextra"],
-      "OTHER_LDFLAGS": ["-framework CoreFoundation -framework Cocoa -framework Carbon"],
-      "MACOSX_DEPLOYMENT_TARGET": "10.13"
+      "OTHER_LDFLAGS": [
+        "-Wl, -bind_at_load",
+        "-framework CoreFoundation -framework Cocoa -framework Carbon",
+        "-arch x86_64",
+        "-arch arm64"
+        ],
+      "MACOSX_DEPLOYMENT_TARGET": "10.15"
     }
   }]
 }
