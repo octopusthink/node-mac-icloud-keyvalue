@@ -1,8 +1,8 @@
 {
   "name": "node-mac-icloud-keyvalue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A native Node.js module providing an interface to the user’s iCloud key value store (eg. NSUbiquitousKeyValueStore)",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean",

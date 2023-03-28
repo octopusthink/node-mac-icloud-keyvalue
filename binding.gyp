@@ -20,6 +20,10 @@
     ],
     'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
     "xcode_settings": {
+      "OTHER_CFLAGS": [
+        "-arch x86_64",
+        "-arch arm64"
+      ],
       "OTHER_CPLUSPLUSFLAGS": ["-std=c++17", "-stdlib=libc++", "-Wextra"],
       "OTHER_LDFLAGS": ["-framework CoreFoundation -framework Cocoa -framework Carbon"],
       "MACOSX_DEPLOYMENT_TARGET": "10.13"
