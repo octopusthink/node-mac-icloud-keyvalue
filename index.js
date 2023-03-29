@@ -1,4 +1,4 @@
-const nsUbiquitousKeyValueStore = require('bindings')(__dirname);
+const nsUbiquitousKeyValueStore = require('bindings')('nsUbiquitousKeyValueStore.node');
 
 const VALID_TYPES = ['string', 'double', 'boolean', 'array', 'dictionary'];
 
