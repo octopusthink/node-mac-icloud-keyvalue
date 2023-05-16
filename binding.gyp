@@ -5,9 +5,9 @@
     "conditions": [
       ['OS=="mac"', {
         "sources": [
+          "src/nsUbiquitousKeyValueStore.mm",
           "src/json_formatter.h",
-          "src/json_formatter.cc",
-          "src/nsUbiquitousKeyValueStore.mm"
+          "src/json_formatter.cc"
         ],
       }]
     ],
