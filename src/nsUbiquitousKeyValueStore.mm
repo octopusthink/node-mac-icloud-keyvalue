@@ -249,4 +249,9 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
   return exports;
 }
 
-NODE_API_MODULE(defaults, Init);
+#if NODE_MAJOR_VERSION >= 10
+NAN_MODULE_WORKER_ENABLED(NODE_GYP_MODULE_NAME, Init)
+#else
+NODE_API_MODULE(NODE_GYP_MODULE_NAME, Init)
+#endif
+

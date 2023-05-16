@@ -24,7 +24,13 @@
         "-arch x86_64",
         "-arch arm64"
       ],
-      "OTHER_CPLUSPLUSFLAGS": ["-std=c++17", "-stdlib=libc++", "-Wextra"],
+      "OTHER_CPLUSPLUSFLAGS": [
+        "-std=c++17",
+        "-stdlib=libc++",
+        "-Wextra",
+        "-arch x86_64",
+        "-arch arm64"
+      ],
       "OTHER_LDFLAGS": [
         "-Wl, -bind_at_load",
         "-framework CoreFoundation -framework Cocoa -framework Carbon",
