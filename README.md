@@ -10,6 +10,8 @@ npm install --save node-mac-icloud-keyvalue
 
 This means you can store things you want synced across all instances of your app, on the Mac and on iOS.
 
+Used in production by [Turnip Timer](https://turniptimer.com), our time-tracking app for freelancers. 🙂
+
 # License
 
 This program is free software; it is distributed under an
